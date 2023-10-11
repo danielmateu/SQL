@@ -6,3 +6,21 @@ select first_name, last_name, last_connection from users where last_connection l
 
 select first_name, last_name, followers from users where followers > 4600
 
+-- Operador AND
+
+select first_name, last_name, followers from users where followers > 4600 AND followers < 4700 order by followers asc;
+
+-- Between
+select
+    first_name,
+    last_name,
+    followers
+from
+    users
+where
+--     followers > 4600
+--     AND followers < 4700
+	followers BETWEEN 4600 and 4700
+order by
+    followers ASC;
+
