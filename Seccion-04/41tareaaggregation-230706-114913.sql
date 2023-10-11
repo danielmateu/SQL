@@ -32,7 +32,6 @@ from
 group by
     country;
 
-
 -- 4. Listado de direcciones IP de todos los usuarios de Iceland
 -- Campos requeridos first_name, last_name, country, last_connection
 
@@ -131,4 +130,4 @@ group by
     country
 order by
     country asc;
-    
+
