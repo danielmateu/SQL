@@ -12,3 +12,13 @@
 -- Agregate Functions -> Count, Sum, Avg, Min, Max, Group By, Having, Order By
 
 -- Filtrado data -> Where, Between, In, Like, Is Null, Is Not Null, and, or, not
+
+-- Estructura general de un SELECT -> 
+    -- SELECT *, campos, alias, funciones, expresiones, etc
+    -- FROM tabla, tablas, joins, subconsultas
+    -- WHERE condiciones
+    -- GROUP BY campos
+    -- HAVING condiciones
+    -- ORDER BY campos
+    -- Limit valor, all
+    -- OFFSET punto de inicio
