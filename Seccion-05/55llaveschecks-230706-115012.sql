@@ -1,8 +1,7 @@
 
 
 -- 1. Crear una llave primaria en city (id)
-create unique index city_id_uindex
-    on city (id);
+alter table city add primary key (id);
 
 -- 2. Crear un check en population, para que no soporte negativos
 alter table city
